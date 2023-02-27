@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Pack.java&apos; to &apos;Model&apos;&#x0D;&#x0A;- Original project: &apos;Pack Opening Simulator&apos;&#x0D;&#x0A;- Destination element: &apos;Model&apos;&#x0D;&#x0A;- Original element: &apos;model.Pack.java&apos;" description="Copy compilation unit" element1="/src&lt;model{Pack.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1676312045878" target="/PackSimulator/src/main/java/com/edigest/PackSimulator/Model" units="1" version="1.0"/>
+</session>

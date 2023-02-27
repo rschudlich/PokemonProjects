@@ -1,0 +1,15 @@
+127.0.0.1 - - [16/Feb/2023:11:35:13 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:11:35:14 -0500] "GET /PackSimulator/ HTTP/1.1" 200 4800
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:11:35:15 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:11:35:46 -0500] "GET /PackSimulator/pack;jsessionid=69B13394D291C94502F27CC32F329268?packs=Silver+Tempest&quantity=18 HTTP/1.1" 200 6464
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:11:36:05 -0500] "GET /PackSimulator/pack?packs=Silver+Tempest&quantity=36 HTTP/1.1" 200 8186
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:11:38:13 -0500] "GET /PackSimulator/pack?packs=Astral+Radiance&quantity=11 HTTP/1.1" 200 5818
+127.0.0.1 - - [16/Feb/2023:15:49:21 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:49:22 -0500] "GET /PackSimulator/ HTTP/1.1" 200 4800
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:49:23 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:49:49 -0500] "GET /PackSimulator/pack;jsessionid=44AFCE159EFD727282F66B143F54BC35?packs=Astral+Radiance&quantity=36 HTTP/1.1" 200 8253
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:50:20 -0500] "GET /PackSimulator/pack?packs=Silver+Tempest&quantity=36 HTTP/1.1" 200 8214
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:50:40 -0500] "GET /PackSimulator/pack?packs=Lost+Origin&quantity=36 HTTP/1.1" 200 8153
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:50:54 -0500] "GET /PackSimulator/pack?packs=Silver+Tempest&quantity=36 HTTP/1.1" 200 8175
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:51:05 -0500] "GET /PackSimulator/pack?packs=Silver+Tempest&quantity=36 HTTP/1.1" 200 8235
+0:0:0:0:0:0:0:1 - - [16/Feb/2023:15:51:11 -0500] "GET /PackSimulator/pack?packs=Silver+Tempest&quantity=8 HTTP/1.1" 200 5531

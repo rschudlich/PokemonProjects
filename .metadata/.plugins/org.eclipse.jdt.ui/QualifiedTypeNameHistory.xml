@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.edigest.PackSimulator.Model.Pack"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.support.rowset.SqlRowSet"/>
+    <fullyQualifiedTypeName name="com.edigest.PackSimulator.Model.Card.JBDCCardDAO"/>
+    <fullyQualifiedTypeName name="com.edigest.PackSimulator.Model.Card.Card"/>
+    <fullyQualifiedTypeName name="com.edigest.PackSimulator.Model.Card.CardDAO"/>
+    <fullyQualifiedTypeName name="com.edigest.PackSimulator.Model.Card.JDBCCardDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="org.apache.commons.dbcp.BasicDataSource"/>
+</qualifiedTypeNameHistroy>

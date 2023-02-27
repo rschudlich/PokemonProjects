@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\rschu\Temp Eclipse Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3117442229.index
+\PokemonPackOpeningSimulator\src\main\java
+C:\Users\rschu\Temp Eclipse Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\494493252.index
+\PackSimulator\src\main\java

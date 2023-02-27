@@ -1,0 +1,17 @@
+package com.edigest.PackSimulator.Model;
+
+import org.apache.commons.dbcp.BasicDataSource;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class DBConnection {
+
+	public static void main(String[] args) {
+		BasicDataSource dataSource = new BasicDataSource();
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/pokemonpackopeningdb");
+        dataSource.setUsername("postgres");
+        dataSource.setPassword("postgres1");
+        
+        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+	}
+
+}

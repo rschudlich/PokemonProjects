@@ -1,0 +1,12 @@
+package com.edigest.PackSimulator.Model;
+
+import javax.sql.DataSource;
+
+public class DBConnection {
+
+	public static void main(String[] args) {
+		 	DataSource dataSource = new DataSource();
+	        ((DataSource) dataSource).setUrl("jdbc:postgresql://localhost:5432/library");
+	}
+
+}

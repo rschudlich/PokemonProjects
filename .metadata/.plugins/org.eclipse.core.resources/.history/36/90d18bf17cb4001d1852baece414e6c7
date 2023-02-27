@@ -1,0 +1,5 @@
+package com.edigest.PackSimulator.Model.Card;
+
+public class Card {
+
+}

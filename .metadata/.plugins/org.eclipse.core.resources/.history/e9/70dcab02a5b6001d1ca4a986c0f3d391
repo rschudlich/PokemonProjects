@@ -1,0 +1,8 @@
+package com.edigest.PackSimulator.Model.Card;
+
+import java.util.List;
+
+public interface CardDAO {
+	public Card getCardByRarityAndSet(String rarity, String setName);
+
+}

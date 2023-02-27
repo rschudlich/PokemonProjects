@@ -1,0 +1,28 @@
+package com.edigest.PackSimulator.Model.Card;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class JBDCCardDAO implements CardDAO {
+	
+	private JdbcTemplate jdbcTemplate;
+	
+	@Autowired
+	public void JDBCLeagueDAO(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+	}
+
+	@Override
+	public List<Card> getCardByRarityAndSet(String rarity, String setName) {
+		return null;
+	}
+
+	
+
+}

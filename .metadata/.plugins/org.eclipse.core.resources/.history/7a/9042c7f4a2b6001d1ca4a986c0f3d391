@@ -1,0 +1,10 @@
+package com.edigest.PackSimulator.Model;
+
+public class DBConnection {
+
+	public static void main(String[] args) {
+		BasicDataSource dataSource = new BasicDataSource();
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/library");
+	}
+
+}

@@ -1,0 +1,4 @@
+1677268414354	Encapsulate field 'name'
+1677268418588	Encapsulate field 'rarity'
+1677268421346	Encapsulate field 'setName'
+1677268459612	Move 'Pack.java' to 'Pack'

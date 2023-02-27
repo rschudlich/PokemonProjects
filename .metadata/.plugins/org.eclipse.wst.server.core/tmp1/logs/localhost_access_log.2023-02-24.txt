@@ -1,0 +1,8 @@
+127.0.0.1 - - [24/Feb/2023:16:49:29 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:16:49:30 -0500] "GET /PackSimulator/ HTTP/1.1" 500 10237
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:16:49:30 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:16:49:35 -0500] "GET /PackSimulator/ HTTP/1.1" 500 10237
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:16:50:57 -0500] "GET /PackSimulator/ HTTP/1.1" 500 14585
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:16:50:58 -0500] "GET /PackSimulator/ HTTP/1.1" 500 14585
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:16:52:07 -0500] "GET /PackSimulator/ HTTP/1.1" 200 4800
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:16:52:33 -0500] "GET /PackSimulator/pack;jsessionid=1DB89349856BF1C228E3132A4C28A10C?packs=Lost+Origin&quantity=19 HTTP/1.1" 200 6558

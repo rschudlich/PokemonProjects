@@ -1,0 +1,12 @@
+package com.edigest.PackSimulator.Model;
+
+import org.springframework.jdbc.datasource.AbstractDataSource;
+
+public class DBConnection {
+
+	public static void main(String[] args) {
+		 AbstractDataSource dataSource = new AbstractDataSource();
+	        dataSource.setUrl("jdbc:postgresql://localhost:5432/library");
+	}
+
+}

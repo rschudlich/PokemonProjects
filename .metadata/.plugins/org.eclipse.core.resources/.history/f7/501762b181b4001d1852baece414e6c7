@@ -1,0 +1,46 @@
+package com.edigest.PackSimulator.Model.Card;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.support.rowset.SqlRowSet;
+import org.springframework.stereotype.Component;
+
+@Component
+public class JBDCCardDAO implements CardDAO {
+	
+	private JdbcTemplate jdbcTemplate;
+	
+	@Autowired
+	public void JDBCLeagueDAO(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+	}
+
+	@Override
+	public List<Card> getCardsByRarityAndSet(String rarity, String setName) {
+		List<Card> cardList = new ArrayList<Card>();
+		String sqlSelectAllLeagues = "SELECT * FROM card WHERE rarity = ? AND setname = ?;";
+		SqlRowSet results = jdbcTemplate.queryForRowSet(sqlSelectAllLeagues, rarity, setName);
+		while (results.next()) {
+			cardList.add(mapRowToCard(results));
+		}
+		return cardList;
+	}
+
+	
+	private Card mapRowToCard(SqlRowSet results) {
+		Card theCard = new Card();
+		
+		theCard.setName(results.getString("cardname"));
+		theCard.setRarity(results.getString("rarity"));
+		theCard.setSetName(results.getString("setname"));
+		
+		return theCard;
+	}
+	
+
+}

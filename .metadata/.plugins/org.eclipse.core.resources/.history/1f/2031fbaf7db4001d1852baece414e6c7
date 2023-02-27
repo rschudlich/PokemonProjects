@@ -1,0 +1,7 @@
+package com.edigest.PackSimulator.Model.Card;
+
+import java.util.List;
+
+public interface CardDAO {
+	public List<Card> allCards;
+}
