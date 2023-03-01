@@ -8,7 +8,7 @@ import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
 
 @Component
-public class JDBCCardDAO { //implements CardDAO {
+public class JDBCCardDAO implements CardDAO {
 	
 	private JdbcTemplate jdbcTemplate;
 	

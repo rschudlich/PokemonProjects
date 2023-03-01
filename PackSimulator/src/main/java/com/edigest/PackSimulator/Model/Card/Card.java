@@ -4,7 +4,7 @@ public class Card {
 	private String name;
 	private String rarity;
 	private String setName;
-	
+	private String image;
 	
 	public String getName() {
 		return name;
@@ -23,5 +23,11 @@ public class Card {
 	}
 	public void setSetName(String setName) {
 		this.setName = setName;
+	}
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
 	}
 }

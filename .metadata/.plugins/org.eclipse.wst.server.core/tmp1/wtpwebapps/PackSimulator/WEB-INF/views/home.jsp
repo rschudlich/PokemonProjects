@@ -12,8 +12,9 @@
     flex-wrap: wrap; 
 }
 
-.card {
-	
+.card.img {
+	height: 100px;
+	width: 100px;
 }
 
 p {
@@ -171,6 +172,7 @@ button {
   </header>
 
   <body> 
+  
   <c:url var="formAction" value="/pack"/>
   <form method = GET action="${formAction}">
     <div class="box">
@@ -184,25 +186,33 @@ button {
     </div>
     
     <div class = "center">
-    <label for="quantity">Quantity (Max 36):</label>
-	<input type = "number" id="quantity" name="quantity" min="1" max="36">
+    	<label for="quantity">Quantity (Max 36):</label>
+		<input type = "number" id="quantity" name="quantity" min="1" max="36">
 	</div>
      
 	 <div class = "center">
         <button type="submit" class = "btn btn-primary">
             Click here to open pack!
         </button>
-       </div>
+     </div>
     </form>
+    
+    
+    
       <div class = "nine">
     <h2><span> Opening ${packName}</span></h2>
      </div>
      
      <div class = "cardList">
      <c:forEach items="${cardList}" var="card">
-     	<div class = "card">
-	 	<p>&nbsp;&nbsp;${card}&nbsp;&nbsp;</p>
+     	
+     	<div class = "card">	
+	 		<p>&nbsp;&nbsp;${card.getName()}&nbsp;&nbsp;</p>
+	 		<p>&nbsp;&nbsp;${card.getImage()}&nbsp;&nbsp;</p>
+	 		<c:url var="imgSrc" value="/images/pokemon.jpg" /> 
+			<img src="${imgSrc}"/>
 	 	</div>		
+	 	
 	 </c:forEach>
 	 </div>
    
